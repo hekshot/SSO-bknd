@@ -12,9 +12,4 @@ public class SkillreBeApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SkillreBeApplication.class, args);
 	}
-
-	@Bean
-	public static BCryptPasswordEncoder passwordEncoder() {
-		return new BCryptPasswordEncoder();
-	}
 }

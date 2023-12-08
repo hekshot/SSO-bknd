@@ -1,5 +1,6 @@
 package com.hekshot.skillrebe.Entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Builder;
 import lombok.Data;
 
@@ -31,5 +32,9 @@ public class User {
 
     public User() {
 
+    }
+
+    public void setUserPassword(String userPassword) {
+        this.userPassword = userPassword;
     }
 }
