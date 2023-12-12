@@ -1,6 +1,5 @@
 package com.hekshot.skillrebe.Entity;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Builder;
 import lombok.Data;
 
